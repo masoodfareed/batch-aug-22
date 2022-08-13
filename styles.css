@@ -1,0 +1,58 @@
+.head-bar {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px 10px 0px 10px;
+    overflow-y: scroll;
+}
+
+.box1 {
+    display: inline-block;
+}
+
+.box2 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.box3 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+img {
+    height: 60%;
+    width: 60%;
+    opacity: 0.2;
+}
+
+p {
+    /*text-decoration: line-through;*/
+    /* line-height: 30px; */
+    text-align: center;
+    text-align: justify !important;
+    text-align: center;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+input:disabled {
+    cursor: not-allowed;
+}
+
+p::first-letter {
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+li::marker {
+    color: red;
+}
